@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+  background-color: rgb(186, 186, 186);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.profilecard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  .card {
+    width: 500px;
+    height: 200px;
+    background: #d3cce3;
+    background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3);
+    background: linear-gradient(to right, #e9e4f0, #d3cce3);
+    box-shadow: 3px -4px 0px 4px #ece7f8dd, 7px -2px 0px 6px #f4f0fcdd;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    .profile-img {
+      margin-right: 30px;
+      img {
+        width: 50px;
+        border-radius: 50%;
+        border: 8px solid rgb(245, 138, 138);
+      }
+    }
+    .profile-details {
+      h1 {
+        font-size: 1.3em;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+      span {
+        text-transform: capitalize;
+        font-size: 0.8em;
+      }
+      ul {
+        display: flex;
+        padding: 0;
+        margin: 10px 0 20px 0;
+
+        li {
+          padding-right: 20px;
+          i {
+            color: black;
+          }
+          a {
+            color: #000;
+            font-size: 12px;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+    .links {
+      a {
+        color: rgb(95, 94, 95);
+        font-weight: 500;
+        padding: 10px 15px;
+        background: #c9d6ff;
+        background: -webkit-linear-gradient(to right, #e5dfed, #e5dfed);
+        background: linear-gradient(to right, #e5dfed, #e5dfed);
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-size: 0.7em;
+        box-shadow: 1px -1px 0px 1px #cac4dcdd, 1px -1px 0px 1px #cac4dcdd inset;
+        margin: 10px;
+        transition: all 0.4s ease;
+      }
+      a:hover {
+        color: rgb(66, 66, 66);
+        letter-spacing: 2px;
+      }
+    }
+  }
+}

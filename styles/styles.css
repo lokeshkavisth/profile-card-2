@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+body {
+  background-color: #bababa;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.profilecard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.profilecard .card {
+  width: 500px;
+  height: 200px;
+  background: #d3cce3;
+  background: -webkit-gradient(linear, left top, right top, from(#e9e4f0), to(#d3cce3));
+  background: linear-gradient(to right, #e9e4f0, #d3cce3);
+  -webkit-box-shadow: 3px -4px 0px 4px #ece7f8dd, 7px -2px 0px 6px #f4f0fcdd;
+          box-shadow: 3px -4px 0px 4px #ece7f8dd, 7px -2px 0px 6px #f4f0fcdd;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.profilecard .card .profile-img {
+  margin-right: 30px;
+}
+
+.profilecard .card .profile-img img {
+  width: 50px;
+  border-radius: 50%;
+  border: 8px solid #f58a8a;
+}
+
+.profilecard .card .profile-details h1 {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.profilecard .card .profile-details span {
+  text-transform: capitalize;
+  font-size: 0.8em;
+}
+
+.profilecard .card .profile-details ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 10px 0 20px 0;
+}
+
+.profilecard .card .profile-details ul li {
+  padding-right: 20px;
+}
+
+.profilecard .card .profile-details ul li i {
+  color: black;
+}
+
+.profilecard .card .profile-details ul li a {
+  color: #000;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.profilecard .card .links a {
+  color: #5f5e5f;
+  font-weight: 500;
+  padding: 10px 15px;
+  background: #c9d6ff;
+  background: -webkit-gradient(linear, left top, right top, from(#e5dfed), to(#e5dfed));
+  background: linear-gradient(to right, #e5dfed, #e5dfed);
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  -webkit-box-shadow: 1px -1px 0px 1px #cac4dcdd, 1px -1px 0px 1px #cac4dcdd inset;
+          box-shadow: 1px -1px 0px 1px #cac4dcdd, 1px -1px 0px 1px #cac4dcdd inset;
+  margin: 10px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.profilecard .card .links a:hover {
+  color: #424242;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=styles.css.map */
